@@ -1,0 +1,25 @@
+<h2>Welder:</h2>
+<h3>Rust + Worker</h3>
+
+<hr>
+
+<input type="number">
+<select>
+    <option default value="SUM">+</option>
+    <option value="DIFF">-</option>
+    <option value="MULT">*</option>
+    <option value="DIV">/</option>
+</select>
+<input type="number">
+= <span></span>
+
+<hr>
+
+This result is computed by <b>Rust</b> code, compiled to <b>WebAssembly</b> and executed within a <b>Worker</b>.
+<br>
+Check your console!
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/EventEmitter/5.2.4/EventEmitter.js"></script>
+<script src="/src/js/main.js"></script>
