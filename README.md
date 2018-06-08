@@ -9,8 +9,6 @@ But something was off... it wasn't the usual offloading of resource-intensive co
 
 The WebWorker was piping data trough a WebAssembly complied Rust backend!!!
 
-Looking out to the horizon in that dreamy landscape I could see compilation of Rust code to WebAssembly on file save, hotswapping of the backend module, the two environments were perfectly merged, the workflow was so smooth and the resulting application super responsive.
-
 ___
 
 This is a Proof of Concept.
